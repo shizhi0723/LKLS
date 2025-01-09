@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "楷体";
+    }
+    a{
+    color: black;
+    text-decoration: none;
+    }
+    hr{
+      border-style: 2px solid;
+    }
+  /* 背景图片样式 */
+   body{
+    display: flex;
+		justify-content:center;
+		align-items:center;
+		height:100vh ;
+    background-image: url(https://i.postimg.cc/W3tdRxPk/1.png);
+    background-size: cover; /* 图片完整显示 */
+    background-position: center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复图片 */
+   }
+   .zhuti{
+    /* border:1px solid red; */
+    width: 900px;
+    height: 950px;
+    margin: 0 auto;
+    
+   }
+   .nav{
+    width: 900px;
+    height: 50px;
+    background-color:#ffffff49 ;
+    border-radius: 5px;
+   }
+   .logo{
+    width: 200px;
+    height: 50px;
+    background-color:#ffffff49;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight:100;
+    border-radius: 5px;
+   }
+   h1{
+    width: 695px;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-left: 5px;
+    background-color: #ffffff49;
+    border-radius: 5px;
+   }
+   li:active{
+   color: rgb(216, 112, 21);
+   }
+   .header{
+   height: 350px;
+   margin-top: 5px;
+   background-image: url(https://i.postimg.cc/VL0Qk8d1/HEADER.png);
+   }
+   .content{
+   height: 490px;
+   margin-top: 5px;
+   /* background-color: burlywood; */
+   }
+   .left{
+     width: 300px;
+    height: 490px;
+    float: left;
+    background-color:#ffffff49;
+    border-radius: 5px;
+   }
+   .left ul li{
+    list-style: none;
+    width: 290px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+    font-size: 25px;
+   }
+   .content .left h2{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+   }
+   .right{
+    /* display: block; */
+    width: 595px;
+    height: 490px;
+    background-color: #ffffff49;
+    float: right;
+    margin-left: 5px;
+    border-radius: 5px;
+   }
+   .content .right h2{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+   }
+   .content .right h1{
+    text-align: center;
+    line-height: 320px;
+   }
+   .content .right p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding: 50px 0 50px;
+    font-family: '华文隶书';
+   }
+   .footer{
+    height: 50px;
+    background-color: #ffffff49;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+   }
+   
